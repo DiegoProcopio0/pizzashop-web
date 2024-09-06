@@ -1,14 +1,12 @@
-import {
-  DropdownMenu,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from '@radix-ui/react-dropdown-menu'
 import { Button } from './ui/button'
 import { Building, ChevronDown, LogOut } from 'lucide-react'
 import {
   DropdownMenuContent,
   DropdownMenuLabel,
   DropdownMenuSeparator,
+  DropdownMenu,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
 } from './ui/dropdown-menu'
 
 export function AccountMenu() {
