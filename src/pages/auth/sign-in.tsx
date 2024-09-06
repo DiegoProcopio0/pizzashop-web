@@ -21,8 +21,6 @@ export function SignIn() {
   } = useForm<SigInForm>()
 
   async function handlerSigIn(data: SigInForm) {
-    console.log(data)
-
     await new Promise((resolve) => setTimeout(resolve, 2000))
 
     toast.success('Enviamos um link de autentificação para seu e-mail.', {
