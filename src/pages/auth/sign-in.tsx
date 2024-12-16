@@ -33,7 +33,7 @@ export function SignIn() {
       <Helmet title="login" />
       <div className="p-8">
         <Button variant="ghost" asChild className="absolute right-8 top-8">
-          <Link to="sign-up">Novo Estabelecimento</Link>
+          <Link to="/sign-up">Novo Estabelecimento</Link>
         </Button>
 
         <div className="flex w-[350px] flex-col justify-center gap-6">
